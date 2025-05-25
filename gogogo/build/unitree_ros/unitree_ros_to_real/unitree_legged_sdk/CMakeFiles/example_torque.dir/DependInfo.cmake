@@ -1,21 +1,14 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/neuro_1/gogogo/src/unitree_ros/unitree_ros_to_real/unitree_legged_sdk/example/example_torque.cpp" "/home/neuro_1/gogogo/build/unitree_ros/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/example/example_torque.cpp.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS_CXX
-  "ROS_BUILD_SHARED_LIBS=1"
   )
 
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/neuro_1/gogogo/src/unitree_ros/unitree_ros_to_real/unitree_legged_sdk/include"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/zby/gogogo/src/unitree_ros/unitree_ros_to_real/unitree_legged_sdk/example/example_torque.cpp" "unitree_ros/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/example/example_torque.cpp.o" "gcc" "unitree_ros/unitree_ros_to_real/unitree_legged_sdk/CMakeFiles/example_torque.dir/example/example_torque.cpp.o.d"
   )
 
 # Targets to which this target links.

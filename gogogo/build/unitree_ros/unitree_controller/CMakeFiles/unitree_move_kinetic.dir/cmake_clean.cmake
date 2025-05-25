@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/neuro_1/gogogo/devel/lib/unitree_controller/unitree_move_kinetic"
-  "/home/neuro_1/gogogo/devel/lib/unitree_controller/unitree_move_kinetic.pdb"
+  "/home/zby/gogogo/devel/lib/unitree_controller/unitree_move_kinetic"
+  "/home/zby/gogogo/devel/lib/unitree_controller/unitree_move_kinetic.pdb"
   "CMakeFiles/unitree_move_kinetic.dir/src/move_publisher.cpp.o"
+  "CMakeFiles/unitree_move_kinetic.dir/src/move_publisher.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

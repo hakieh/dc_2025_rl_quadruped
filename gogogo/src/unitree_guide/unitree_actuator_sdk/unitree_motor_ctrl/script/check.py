@@ -14,9 +14,9 @@ elif system == 'Linux':
     fd = c.open_set(b'/dev/ttyUSB0')
     maxbit=sys.maxsize
     if maxbit>2**32:
-        libPath = os.path.dirname(os.getcwd()) + '/lib/libUnitree_motor_SDK_ARM64.so'
+        libPath = os.path.dirname(os.getcwd()) + '/lib/libUnitree_motor_SDK_Linux64.so'
     else:
-        libPath = os.path.dirname(os.getcwd()) + '/lib/libUnitree_motor_SDK_ARM32.so'
+        libPath = os.path.dirname(os.getcwd()) + '/lib/libUnitree_motor_SDK_Linux32.so'
 
 c = cdll.LoadLibrary(libPath)
 

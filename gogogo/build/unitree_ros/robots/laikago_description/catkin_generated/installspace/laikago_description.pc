@@ -1,4 +1,4 @@
-prefix=/home/neuro_1/gogogo/install
+prefix=/home/zby/gogogo/install
 
 Name: laikago_description
 Description: Description of laikago_description

@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/neuro_1/gogogo/src
-# Build directory: /home/neuro_1/gogogo/build
+# Source directory: /home/zby/gogogo/src
+# Build directory: /home/zby/gogogo/build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

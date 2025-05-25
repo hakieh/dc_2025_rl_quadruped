@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/neuro_1/gogogo/devel/lib/unitree_legged_real/twist_sub"
-  "/home/neuro_1/gogogo/devel/lib/unitree_legged_real/twist_sub.pdb"
+  "/home/zby/gogogo/devel/lib/unitree_legged_real/twist_sub"
+  "/home/zby/gogogo/devel/lib/unitree_legged_real/twist_sub.pdb"
   "CMakeFiles/twist_sub.dir/src/exe/twist_sub.cpp.o"
+  "CMakeFiles/twist_sub.dir/src/exe/twist_sub.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

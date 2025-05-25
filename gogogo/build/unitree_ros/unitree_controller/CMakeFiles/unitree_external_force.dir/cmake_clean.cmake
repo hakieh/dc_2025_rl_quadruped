@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/neuro_1/gogogo/devel/lib/unitree_controller/unitree_external_force"
-  "/home/neuro_1/gogogo/devel/lib/unitree_controller/unitree_external_force.pdb"
+  "/home/zby/gogogo/devel/lib/unitree_controller/unitree_external_force"
+  "/home/zby/gogogo/devel/lib/unitree_controller/unitree_external_force.pdb"
   "CMakeFiles/unitree_external_force.dir/src/external_force.cpp.o"
+  "CMakeFiles/unitree_external_force.dir/src/external_force.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

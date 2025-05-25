@@ -67,14 +67,14 @@ set(b2_description_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(b2_description_SOURCE_PREFIX /home/neuro_1/gogogo/src/unitree_ros/robots/b2_description)
-  set(b2_description_DEVEL_PREFIX /home/neuro_1/gogogo/devel)
+  set(b2_description_SOURCE_PREFIX /home/zby/gogogo/src/unitree_ros/robots/b2_description)
+  set(b2_description_DEVEL_PREFIX /home/zby/gogogo/devel)
   set(b2_description_INSTALL_PREFIX "")
   set(b2_description_PREFIX ${b2_description_DEVEL_PREFIX})
 else()
   set(b2_description_SOURCE_PREFIX "")
   set(b2_description_DEVEL_PREFIX "")
-  set(b2_description_INSTALL_PREFIX /home/neuro_1/gogogo/install)
+  set(b2_description_INSTALL_PREFIX /home/zby/gogogo/install)
   set(b2_description_PREFIX ${b2_description_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/neuro_1/gogogo/install/lib;/home/neuro_1/gogogo/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/zby/gogogo/install/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

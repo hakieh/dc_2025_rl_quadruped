@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/neuro_1/gogogo/devel/lib/unitree_legged_real/ros_example_position"
-  "/home/neuro_1/gogogo/devel/lib/unitree_legged_real/ros_example_position.pdb"
+  "/home/zby/gogogo/devel/lib/unitree_legged_real/ros_example_position"
+  "/home/zby/gogogo/devel/lib/unitree_legged_real/ros_example_position.pdb"
   "CMakeFiles/ros_example_position.dir/src/exe/example_position.cpp.o"
+  "CMakeFiles/ros_example_position.dir/src/exe/example_position.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

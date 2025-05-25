@@ -38,7 +38,7 @@
             <uri>model://ground_plane</uri>
         </include>
         <!-- environment blocks, obstacles or stairs -->
-        <!-- <model name="static_environment">
+        <model name="static_environment">
         <static>true</static>
             <link name="static_box">
                 <pose>-2 2 0.5 0 0 0</pose>
@@ -61,7 +61,7 @@
                     </material>
                 </visual>
             </link>
-        </model> -->
+        </model>
 
     </world>
 </sdf>

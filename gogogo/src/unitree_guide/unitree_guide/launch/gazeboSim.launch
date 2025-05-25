@@ -43,8 +43,6 @@
           RR_hip_controller RR_thigh_controller RR_calf_controller "/>
 
     <!-- convert joint states to TF transforms for rviz, etc -->
-    <!-- <node pkg="rviz" type="rviz" name="rviz" args="-d $(find unitree_guide)/launch/config.rviz"/> -->
-    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" />
     <node pkg="robot_state_publisher" type="robot_state_publisher" name="robot_state_publisher"
           respawn="false" output="screen">
         <remap from="/joint_states" to="/$(arg rname)_gazebo/joint_states"/>

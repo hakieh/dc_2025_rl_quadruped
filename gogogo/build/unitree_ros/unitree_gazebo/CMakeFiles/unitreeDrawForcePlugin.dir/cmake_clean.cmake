@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/neuro_1/gogogo/devel/lib/libunitreeDrawForcePlugin.pdb"
-  "/home/neuro_1/gogogo/devel/lib/libunitreeDrawForcePlugin.so"
+  "/home/zby/gogogo/devel/lib/libunitreeDrawForcePlugin.pdb"
+  "/home/zby/gogogo/devel/lib/libunitreeDrawForcePlugin.so"
   "CMakeFiles/unitreeDrawForcePlugin.dir/plugin/draw_force_plugin.cc.o"
+  "CMakeFiles/unitreeDrawForcePlugin.dir/plugin/draw_force_plugin.cc.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

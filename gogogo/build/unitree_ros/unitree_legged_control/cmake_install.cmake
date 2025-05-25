@@ -1,8 +1,8 @@
-# Install script for directory: /home/neuro_1/gogogo/src/unitree_ros/unitree_legged_control
+# Install script for directory: /home/zby/gogogo/src/unitree_ros/unitree_legged_control
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/neuro_1/gogogo/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zby/gogogo/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,18 +37,23 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/neuro_1/gogogo/build/unitree_ros/unitree_legged_control/catkin_generated/installspace/unitree_legged_control.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zby/gogogo/build/unitree_ros/unitree_legged_control/catkin_generated/installspace/unitree_legged_control.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_control/cmake" TYPE FILE FILES
-    "/home/neuro_1/gogogo/build/unitree_ros/unitree_legged_control/catkin_generated/installspace/unitree_legged_controlConfig.cmake"
-    "/home/neuro_1/gogogo/build/unitree_ros/unitree_legged_control/catkin_generated/installspace/unitree_legged_controlConfig-version.cmake"
+    "/home/zby/gogogo/build/unitree_ros/unitree_legged_control/catkin_generated/installspace/unitree_legged_controlConfig.cmake"
+    "/home/zby/gogogo/build/unitree_ros/unitree_legged_control/catkin_generated/installspace/unitree_legged_controlConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_control" TYPE FILE FILES "/home/neuro_1/gogogo/src/unitree_ros/unitree_legged_control/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/unitree_legged_control" TYPE FILE FILES "/home/zby/gogogo/src/unitree_ros/unitree_legged_control/package.xml")
 endif()
 

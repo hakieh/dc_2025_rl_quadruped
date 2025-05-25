@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/neuro_1/gogogo/devel/lib/unitree_controller/unitree_servo"
-  "/home/neuro_1/gogogo/devel/lib/unitree_controller/unitree_servo.pdb"
+  "/home/zby/gogogo/devel/lib/unitree_controller/unitree_servo"
+  "/home/zby/gogogo/devel/lib/unitree_controller/unitree_servo.pdb"
   "CMakeFiles/unitree_servo.dir/src/servo.cpp.o"
+  "CMakeFiles/unitree_servo.dir/src/servo.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/neuro_1/gogogo/devel/lib/libunitreeFootContactPlugin.pdb"
-  "/home/neuro_1/gogogo/devel/lib/libunitreeFootContactPlugin.so"
+  "/home/zby/gogogo/devel/lib/libunitreeFootContactPlugin.pdb"
+  "/home/zby/gogogo/devel/lib/libunitreeFootContactPlugin.so"
   "CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.o"
+  "CMakeFiles/unitreeFootContactPlugin.dir/plugin/foot_contact_plugin.cc.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

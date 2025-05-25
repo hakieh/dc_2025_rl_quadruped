@@ -51,8 +51,8 @@
                         <format>R8G8B8</format>
                     </image>
                     <clip>
-                        <near>0.05</near>
-                        <far>8</far>
+                        <near>0.1</near>
+                        <far>5</far>
                     </clip>
                 </camera>
                 <plugin name="camera_${name}_controller" filename="libgazebo_ros_openni_kinect.so">

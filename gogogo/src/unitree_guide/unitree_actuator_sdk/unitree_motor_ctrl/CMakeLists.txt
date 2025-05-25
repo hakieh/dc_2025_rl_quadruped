@@ -151,7 +151,7 @@ add_executable(${PROJECT_NAME}_node src/check.cpp)
 
 ## Specify libraries to link a library or executable target against
 target_link_libraries(${PROJECT_NAME}_node
-  ${catkin_LIBRARIES} Unitree_motor_SDK_ARM
+  ${catkin_LIBRARIES} Unitree_motor_SDK_Linux
 )
 
 #############

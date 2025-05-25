@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.14)
 project(unitree_guide)
 
 set(ROBOT_TYPE Go1)         # The type of robot, support Go1 and A1 currently
-set(PLATFORM arm64)         # The platform to compile, support amd64 and arm64
+set(PLATFORM amd64)         # The platform to compile, support amd64 and arm64
 
 set(CATKIN_MAKE ON)        # Use CATKIN_MAKE or not, ON or OFF
 set(SIMULATION ON)         # Use Gazebo or not, ON or OFF
@@ -144,7 +144,3 @@ target_link_libraries(junior_ctrl -pthread lcm)
 if(NOT CATKIN_MAKE)
     set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 endif()
-
-add_executable(testgo src/testgo.cpp ${SRC_LIST})
-target_link_libraries(testgo ${catkin_LIBRARIES})
-add_dependencies(testgo ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})

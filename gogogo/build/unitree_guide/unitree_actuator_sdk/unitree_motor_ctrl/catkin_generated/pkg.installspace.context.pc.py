@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "unitree_motor_ctrl"
-PROJECT_SPACE_DIR = "/home/neuro_1/gogogo/install"
+PROJECT_SPACE_DIR = "/home/zby/gogogo/install"
 PROJECT_VERSION = "0.0.0"

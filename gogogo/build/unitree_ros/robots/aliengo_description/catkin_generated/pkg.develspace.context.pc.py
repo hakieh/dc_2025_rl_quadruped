@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "aliengo_description"
-PROJECT_SPACE_DIR = "/home/neuro_1/gogogo/devel"
+PROJECT_SPACE_DIR = "/home/zby/gogogo/devel"
 PROJECT_VERSION = "0.0.0"

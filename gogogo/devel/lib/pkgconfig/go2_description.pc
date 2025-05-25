@@ -1,4 +1,4 @@
-prefix=/home/neuro_1/gogogo/devel
+prefix=/home/zby/gogogo/devel
 
 Name: go2_description
 Description: Description of go2_description

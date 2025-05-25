@@ -2,7 +2,7 @@
 
 message(STATUS "unitree_legged_msgs: 11 messages, 0 services")
 
-set(MSG_I_FLAGS "-Iunitree_legged_msgs:/home/neuro_1/gogogo/src/unitree_legged_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iunitree_legged_msgs:/home/zby/gogogo/src/unitree_legged_msgs/msg;-Istd_msgs:/opt/ros/noetic/share/std_msgs/cmake/../msg;-Igeometry_msgs:/opt/ros/noetic/share/geometry_msgs/cmake/../msg;-Isensor_msgs:/opt/ros/noetic/share/sensor_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,59 +17,59 @@ add_custom_target(unitree_legged_msgs_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg" NAME_WE)
 add_custom_target(_unitree_legged_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg" ""
 )
 
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg" NAME_WE)
 add_custom_target(_unitree_legged_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg" ""
 )
 
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg" NAME_WE)
 add_custom_target(_unitree_legged_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg" ""
 )
 
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg" NAME_WE)
 add_custom_target(_unitree_legged_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg" ""
 )
 
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg" NAME_WE)
 add_custom_target(_unitree_legged_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg" ""
 )
 
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg" NAME_WE)
 add_custom_target(_unitree_legged_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg" ""
 )
 
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg" NAME_WE)
 add_custom_target(_unitree_legged_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg" ""
 )
 
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg" NAME_WE)
 add_custom_target(_unitree_legged_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg" "unitree_legged_msgs/MotorCmd:unitree_legged_msgs/BmsCmd"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg" "unitree_legged_msgs/BmsCmd:unitree_legged_msgs/MotorCmd"
 )
 
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowState.msg" NAME_WE)
 add_custom_target(_unitree_legged_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowState.msg" "unitree_legged_msgs/MotorState:unitree_legged_msgs/BmsState:unitree_legged_msgs/Cartesian:unitree_legged_msgs/IMU"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowState.msg" "unitree_legged_msgs/BmsState:unitree_legged_msgs/MotorState:unitree_legged_msgs/IMU:unitree_legged_msgs/Cartesian"
 )
 
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg" NAME_WE)
 add_custom_target(_unitree_legged_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg" "unitree_legged_msgs/BmsCmd:unitree_legged_msgs/LED"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg" "unitree_legged_msgs/BmsCmd:unitree_legged_msgs/LED"
 )
 
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighState.msg" NAME_WE)
 add_custom_target(_unitree_legged_msgs_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighState.msg" "unitree_legged_msgs/MotorState:unitree_legged_msgs/BmsState:unitree_legged_msgs/Cartesian:unitree_legged_msgs/IMU"
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "unitree_legged_msgs" "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighState.msg" "unitree_legged_msgs/BmsState:unitree_legged_msgs/MotorState:unitree_legged_msgs/IMU:unitree_legged_msgs/Cartesian"
 )
 
 #
@@ -79,69 +79,69 @@ add_custom_target(_unitree_legged_msgs_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_cpp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_cpp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_cpp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_cpp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_cpp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_cpp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_cpp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_cpp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowState.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_cpp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_cpp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighState.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/unitree_legged_msgs
 )
 
@@ -159,27 +159,27 @@ add_custom_target(unitree_legged_msgs_generate_messages_cpp
 add_dependencies(unitree_legged_msgs_generate_messages unitree_legged_msgs_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_cpp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_cpp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_cpp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_cpp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_cpp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_cpp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_cpp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_cpp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_cpp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_cpp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_cpp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -192,69 +192,69 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS unitree_legged_msgs_generate_messag
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_eus(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_eus(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_eus(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_eus(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_eus(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_eus(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_eus(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_eus(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowState.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_eus(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_eus(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighState.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/unitree_legged_msgs
 )
 
@@ -272,27 +272,27 @@ add_custom_target(unitree_legged_msgs_generate_messages_eus
 add_dependencies(unitree_legged_msgs_generate_messages unitree_legged_msgs_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_eus _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_eus _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_eus _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_eus _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_eus _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_eus _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_eus _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_eus _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_eus _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_eus _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_eus _unitree_legged_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -305,69 +305,69 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS unitree_legged_msgs_generate_messag
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_lisp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_lisp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_lisp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_lisp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_lisp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_lisp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_lisp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_lisp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowState.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_lisp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_lisp(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighState.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/unitree_legged_msgs
 )
 
@@ -385,27 +385,27 @@ add_custom_target(unitree_legged_msgs_generate_messages_lisp
 add_dependencies(unitree_legged_msgs_generate_messages unitree_legged_msgs_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_lisp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_lisp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_lisp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_lisp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_lisp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_lisp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_lisp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_lisp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_lisp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_lisp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_lisp _unitree_legged_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -418,69 +418,69 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS unitree_legged_msgs_generate_messag
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_nodejs(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_nodejs(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_nodejs(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_nodejs(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_nodejs(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_nodejs(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_nodejs(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_nodejs(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowState.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_nodejs(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_nodejs(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighState.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/unitree_legged_msgs
 )
 
@@ -498,27 +498,27 @@ add_custom_target(unitree_legged_msgs_generate_messages_nodejs
 add_dependencies(unitree_legged_msgs_generate_messages unitree_legged_msgs_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_nodejs _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_nodejs _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_nodejs _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_nodejs _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_nodejs _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_nodejs _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_nodejs _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_nodejs _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_nodejs _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_nodejs _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_nodejs _unitree_legged_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -531,69 +531,69 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS unitree_legged_msgs_generate_messag
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_py(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_py(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_py(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_py(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_py(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_py(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_py(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_py(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowState.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_py(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs
 )
 _generate_msg_py(unitree_legged_msgs
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighState.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighState.msg"
   "${MSG_I_FLAGS}"
-  "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg;/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg"
+  "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg;/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg"
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs
 )
 
@@ -611,27 +611,27 @@ add_custom_target(unitree_legged_msgs_generate_messages_py
 add_dependencies(unitree_legged_msgs_generate_messages unitree_legged_msgs_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_py _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/MotorState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/MotorState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_py _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_py _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/BmsState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/BmsState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_py _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/Cartesian.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_py _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/IMU.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/IMU.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_py _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LED.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LED.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_py _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_py _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/LowState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/LowState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_py _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighCmd.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_py _unitree_legged_msgs_generate_messages_check_deps_${_filename})
-get_filename_component(_filename "/home/neuro_1/gogogo/src/unitree_legged_msgs/msg/HighState.msg" NAME_WE)
+get_filename_component(_filename "/home/zby/gogogo/src/unitree_legged_msgs/msg/HighState.msg" NAME_WE)
 add_dependencies(unitree_legged_msgs_generate_messages_py _unitree_legged_msgs_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -712,7 +712,7 @@ if(TARGET sensor_msgs_generate_messages_nodejs)
 endif()
 
 if(genpy_INSTALL_DIR AND EXISTS ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs)
-  install(CODE "execute_process(COMMAND \"/usr/bin/python3\" -m compileall \"${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs\")")
+  install(CODE "execute_process(COMMAND \"/bin/python3\" -m compileall \"${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs\")")
   # install generated code
   install(
     DIRECTORY ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/unitree_legged_msgs

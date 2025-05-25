@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "/home/neuro_1/gogogo/devel/lib/unitree_legged_real/state_sub"
-  "/home/neuro_1/gogogo/devel/lib/unitree_legged_real/state_sub.pdb"
+  "/home/zby/gogogo/devel/lib/unitree_legged_real/state_sub"
+  "/home/zby/gogogo/devel/lib/unitree_legged_real/state_sub.pdb"
   "CMakeFiles/state_sub.dir/src/exe/state_sub.cpp.o"
+  "CMakeFiles/state_sub.dir/src/exe/state_sub.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

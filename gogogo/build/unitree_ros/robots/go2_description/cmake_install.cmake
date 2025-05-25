@@ -1,8 +1,8 @@
-# Install script for directory: /home/neuro_1/gogogo/src/unitree_ros/robots/go2_description
+# Install script for directory: /home/zby/gogogo/src/unitree_ros/robots/go2_description
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/neuro_1/gogogo/install")
+  set(CMAKE_INSTALL_PREFIX "/home/zby/gogogo/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -37,34 +37,39 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
   set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
+# Set default install directory permissions.
+if(NOT DEFINED CMAKE_OBJDUMP)
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
+endif()
+
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/neuro_1/gogogo/build/unitree_ros/robots/go2_description/catkin_generated/installspace/go2_description.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/zby/gogogo/build/unitree_ros/robots/go2_description/catkin_generated/installspace/go2_description.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/go2_description/cmake" TYPE FILE FILES
-    "/home/neuro_1/gogogo/build/unitree_ros/robots/go2_description/catkin_generated/installspace/go2_descriptionConfig.cmake"
-    "/home/neuro_1/gogogo/build/unitree_ros/robots/go2_description/catkin_generated/installspace/go2_descriptionConfig-version.cmake"
+    "/home/zby/gogogo/build/unitree_ros/robots/go2_description/catkin_generated/installspace/go2_descriptionConfig.cmake"
+    "/home/zby/gogogo/build/unitree_ros/robots/go2_description/catkin_generated/installspace/go2_descriptionConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/go2_description" TYPE FILE FILES "/home/neuro_1/gogogo/src/unitree_ros/robots/go2_description/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/go2_description" TYPE FILE FILES "/home/zby/gogogo/src/unitree_ros/robots/go2_description/package.xml")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/go2_description/config" TYPE DIRECTORY FILES "/home/neuro_1/gogogo/src/unitree_ros/robots/go2_description/config/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/go2_description/config" TYPE DIRECTORY FILES "/home/zby/gogogo/src/unitree_ros/robots/go2_description/config/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/go2_description/launch" TYPE DIRECTORY FILES "/home/neuro_1/gogogo/src/unitree_ros/robots/go2_description/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/go2_description/launch" TYPE DIRECTORY FILES "/home/zby/gogogo/src/unitree_ros/robots/go2_description/launch/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/go2_description/meshes" TYPE DIRECTORY FILES "/home/neuro_1/gogogo/src/unitree_ros/robots/go2_description/meshes/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/go2_description/meshes" TYPE DIRECTORY FILES "/home/zby/gogogo/src/unitree_ros/robots/go2_description/meshes/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/go2_description/urdf" TYPE DIRECTORY FILES "/home/neuro_1/gogogo/src/unitree_ros/robots/go2_description/urdf/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/go2_description/urdf" TYPE DIRECTORY FILES "/home/zby/gogogo/src/unitree_ros/robots/go2_description/urdf/")
 endif()
 

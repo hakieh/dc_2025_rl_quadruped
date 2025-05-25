@@ -1,4 +1,4 @@
-prefix=/home/neuro_1/gogogo/install
+prefix=/home/zby/gogogo/install
 
 Name: aliengo_description
 Description: Description of aliengo_description
